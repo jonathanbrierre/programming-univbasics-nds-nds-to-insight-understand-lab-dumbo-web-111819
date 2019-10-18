@@ -11,7 +11,7 @@ def pretty_print_nds(nds)
 end
 
 def print_first_directors_movie_titles
- directors_database
+ puts directors_database
  director_index = 0 
    while director_index < directors_database.length do 
      this_movie = 0 
